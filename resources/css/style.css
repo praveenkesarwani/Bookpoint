@@ -247,11 +247,15 @@ header {
   display: none;
 }
 
-.mobile-nav-icon i {
+.mobile-nav-icon ion-icon {
   font-size: 200%;
   color: #fff;
 }
 
+.sticky .mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #555;
+}
 /* sticky navi*/
 .sticky {
   position: fixed;
@@ -548,24 +552,23 @@ footer {
 .social-links li a:visited {
   font-size: 160%;
 }
-
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.iconify {
   transition: color 0.2s;
 }
-.ion-social-facebook:hover {
+.facebook-icon:hover {
   color: #3b5998;
 }
-.ion-social-twitter:hover {
+.twitter-icon:hover {
   color: #55acee;
 }
 
-.ion-social-googleplus:hover {
+.iconify:hover {
   color: #dd4b39;
 }
-.ion-social-instagram:hover {
+.instagram-icon:hover {
   color: #e1306c;
 }
 footer p {
