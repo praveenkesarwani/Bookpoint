@@ -247,12 +247,12 @@ header {
   display: none;
 }
 
-.mobile-nav-icon ion-icon {
+.mobile-nav-icon i {
   font-size: 200%;
   color: #fff;
 }
 
-.sticky .mobile-nav-icon ion-icon {
+.sticky .mobile-nav-icon i {
   font-size: 200%;
   color: #555;
 }
